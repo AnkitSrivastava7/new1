@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	*{ margin: 0;padding: 0;box-sizing:border-box;}
+               section{width: 100% ;background: cyan;display: flex;flex-direction: column; }
+    selector container{
+    	             width: 100%
+    	             display:flex;
+                 background: #ffc728;
+                 padding: 50px;
+                 box-sizing: border-box;
+                 flex-direction: row;
+    	      
+      childcontainerimg{
+      	flex:1;
+      background: green;
+      font-size: 12px; 
+    font-family: 'Roboto',sans-serif 
+
+}
+     childcontainerM {
+     	flex:1;
+      background: pink;
+      font-size: 12px; 
+    font-family: 'Roboto',sans-serif 
+
+     }
+    childcontainerR{
+	flex:1;
+      background: cyan;
+    padding: 30px;
+    font-size: 12px; 
+    font-family: 'Roboto',sans-serif 
+
+       }
+         @media screen and (max-width: 768px)
+         {  
+           selector container{
+            flex-direction: column;
+
+
+         }
+
+</style>
+</head>
+<body>	
+<img src=".\image1.jpg" width="460" height="345">
+<img src=".\image2.jpg"width="460"height="345">
+<img src=".\image3.jpg "width="460" height="345">
+<img src=".\image4.jpg "width="460" height="345">
+<div class ="selector container">
+
+<div class= "childcontainerimg"></div>
+ <div class="childcontainerR"></div>
+<div class="childcontainerM" > </div>
+</div>
+</body>
+</html>
+
